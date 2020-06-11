@@ -40,7 +40,8 @@ const ItemList = (props) => {
           })
           .reduce((a, b) => {
             return a + b;
-          })}
+          })
+          .toFixed(2)}
       </p>
       <ul>
         {stockList?.map((x, index) => (
